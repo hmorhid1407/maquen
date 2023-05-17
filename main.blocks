@@ -1,0 +1,27 @@
+<xml xmlns="https://developers.google.com/blockly/xml"><variables><variable id=".YOSK71},4%E.tY:gIEJ">strip</variable></variables><comment id="AS.PwEQWeV@;g1G|j44F" x="-458" y="-602" h="178" w="375">1)recorrer un cuadrado
+2)dar una vuelta a un objeto
+3)</comment><comment id="ck~dmsvA;gw)c_rY%~H^" x="1488" y="-151" h="200" w="200"></comment><block type="device_gesture_event" id="i47b~#Y]lk.ItVgF}5=j" x="732" y="-277"><field name="NAME">Gesture.LogoUp</field><statement name="HANDLER"><block type="controls_repeat_ext" id="B!LdfHv19VtWqR3A*biP"><value name="TIMES"><shadow type="math_whole_number" id="d1`v1$R*kipLYZ`)}*]a"><field name="NUM">5</field></shadow></value><statement name="DO"><block type="motor_MotorRun" id="jL4~5XbXA,.gbp,G]NYO"><field name="index">maqueen.Motors.All</field><field name="Dir">maqueen.Dir.CW</field><value name="speed"><shadow type="math_number_minmax" id="b.e[3MFC_@D0EHIDHlhd"><mutation min="0" max="255" label="Speed" precision="0"></mutation><field name="SLIDER">255</field></shadow></value><next><block type="device_pause" id="8MYl4S=#BBfOu[a6bX!|"><value name="pause"><shadow type="timePicker" id="zIL~s)xEOf0:n6$(N81f"><field name="ms">100</field></shadow></value><next><block type="motor_MotorRun" id="-R`m}WrV!(t69`:iFQr#"><field name="index">maqueen.Motors.All</field><field name="Dir">maqueen.Dir.CCW</field><value name="speed"><shadow type="math_number_minmax" id="q2hfM7EA~Lq*emw%c|g^"><mutation min="0" max="255" label="Speed" precision="0"></mutation><field name="SLIDER">255</field></shadow></value><next><block type="device_pause" id="^-XOBEeq*4A_n58B.JDJ"><value name="pause"><shadow type="timePicker" id="iw|aVNtsZ`I(:^oF.|uL"><field name="ms">100</field></shadow></value></block></next></block></next></block></next></block></statement></block></statement></block><block type="pxt-on-start" id="kuc6/[]BuE#_mg$;[=hU" x="0" y="0"><statement name="HANDLER"><block type="device_show_leds" id="hu4FtA5ms/bn/=4@FvLo"><field name="LEDS">`
+        # # # # # 
+        # # # # # 
+        # # # # # 
+        # # # # # 
+        # # # # #
+        `</field><next><block type="device_show_leds" id="aaKEL37^v054t0R2NSkN"><field name="LEDS">`
+        . . . . . 
+        . . . . . 
+        . . . . . 
+        . . . . . 
+        . . . . .
+        `</field><next><block type="device_show_leds" id="9XiyliYJV}pCq^}v2z{7"><field name="LEDS">`
+        # # # # # 
+        # # # # # 
+        # # # # # 
+        # # # # # 
+        # # # # #
+        `</field><next><block type="device_show_leds" id="df{HqFy@vn.QN7Y;Dm!^"><field name="LEDS">`
+        . . . . . 
+        . . . . . 
+        . . . . . 
+        . . . . . 
+        . . . . .
+        `</field></block></next></block></next></block></next></block></statement></block><block type="device_forever" id=".0IWH@eB!G`wp70)V!/V" x="328" y="63"><statement name="HANDLER"><block type="motor_MotorRun" id="aQIp8#p1SgsVgUM4E6d0"><field name="index">maqueen.Motors.All</field><field name="Dir">maqueen.Dir.CW</field><value name="speed"><shadow type="math_number_minmax" id=",^SJ{Xpq]eiX-MT6vDwN"><mutation min="0" max="255" label="Speed" precision="0"></mutation><field name="SLIDER">255</field></shadow></value></block></statement></block></xml>
